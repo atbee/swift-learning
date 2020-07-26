@@ -25,3 +25,18 @@ let amount = 12.5
 let amountInt = Int(amount)
 let amountRound = Int(amount.rounded())
 
+// String
+let firstname = "Athibet"
+let message = """
+    title
+    header
+    content
+    """
+
+// String concatinations
+print("Hello " + firstname)
+print("Hello \(firstname)")
+
+let quotation = """
+    I said "Heelo \(firstname)"
+    """
