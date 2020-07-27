@@ -40,3 +40,11 @@ print("Hello \(firstname)")
 let quotation = """
     I said "Heelo \(firstname)"
     """
+
+// String index
+let name = "Athibet Prawane"
+let index = name.index(name.startIndex, offsetBy: 3)
+let char = name[index]
+
+let nameLength = name.count
+let isNameEmpty = name.isEmpty
