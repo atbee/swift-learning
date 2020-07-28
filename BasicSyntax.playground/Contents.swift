@@ -48,3 +48,16 @@ let char = name[index]
 
 let nameLength = name.count
 let isNameEmpty = name.isEmpty
+
+// Operation
+// Concat array
+
+var hello = ["Hello"] + ["World!"]
+
+// Mod
+let remainder = 17 % 5
+17.remainder(dividingBy: 5)
+
+// Range
+let myNumber = 1...5
+print(myNumber)
