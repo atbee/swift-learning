@@ -61,3 +61,18 @@ let remainder = 17 % 5
 // Range
 let myNumber = 1...5
 print(myNumber)
+
+// Array
+let stringArray: [String] = []
+let stringArray2 = [String]()
+
+var shoppingListArray: [String] = ["Water", "Rice", "Banana"]
+let shoppingListArray2 = ["Water", "Rice", "Banana"]
+
+print(shoppingListArray[1])
+shoppingListArray[1] = "Phone"
+print(shoppingListArray[1])
+
+shoppingListArray[1...2] = ["A", "B"]
+print(shoppingListArray)
+
