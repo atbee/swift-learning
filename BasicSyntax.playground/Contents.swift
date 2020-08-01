@@ -83,3 +83,11 @@ shoppingList.insert("X", at: 2)
 
 let newShoppingList = shoppingList.remove(at: 0)
 print(newShoppingList)
+
+// Dictionary -> key: value
+var occupationsDictionary: [String: String] = [:]
+var occupations = [
+    "Atb": "Engineer",
+    "Pwn": "Doctor",
+]
+print(occupations["Atb", default: "Nothing"])
