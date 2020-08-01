@@ -76,3 +76,10 @@ print(shoppingListArray[1])
 shoppingListArray[1...2] = ["A", "B"]
 print(shoppingListArray)
 
+// Array append insert remove
+var shoppingList = ["A", "B", "C", "D"]
+shoppingList.append("E")
+shoppingList.insert("X", at: 2)
+
+let newShoppingList = shoppingList.remove(at: 0)
+print(newShoppingList)
